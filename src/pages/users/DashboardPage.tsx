@@ -4,12 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { getCurrentUser, logout } from "../../lib/usersStore";
 import type { User } from "../../lib/users";
 import "../../styles/pages/dashboard.css";
-import {
-  GridIcon,
-  ListIcon,
-  UserIcon,
-  PlusSquareIcon,
-} from "../../components/Icons";
 
 type Lesson = {
   id: string;
